@@ -22,12 +22,12 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/add-name" className="hover:text-foreground">
+            <Link to="/add/name" className="hover:text-foreground">
               Adicionar Nome
             </Link>
           </li>
           <li>
-            <Link to="/view-names" className="hover:text-foreground">
+            <Link to="/view/names" className="hover:text-foreground">
               Visualizar Nomes
             </Link>
           </li>

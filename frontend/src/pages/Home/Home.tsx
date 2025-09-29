@@ -22,10 +22,10 @@ export default function Home() {
 
       <div className="flex flex-col items-center gap-3 w-full max-w-md">
         <Button className="w-full min-w-[280px] uppercase">
-          <Link to="/add-name">Inserir um nome</Link>
+          <Link to="/add/name">Inserir um nome</Link>
         </Button>
         <Button variant="secondary" className="w-full min-w-[280px] uppercase">
-          <Link to="/view-names">Visualizar nomes</Link>
+          <Link to="/view/names">Visualizar nomes</Link>
         </Button>
       </div>
     </RootLayout>

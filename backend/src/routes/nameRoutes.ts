@@ -1,4 +1,4 @@
-import { createNameController } from "../controllers/CreateNameController";
+import { createNameController } from "../controllers/createNameController";
 import { getAllNamesController } from "../controllers/getAllNamesControler";
 import { validateCreateName } from "../middlewares/createNameMiddlewarer";
 import { Router } from "express";
